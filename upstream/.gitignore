@@ -1,0 +1,41 @@
+# Dependency directories
+/node_modules/
+
+# dotenv environment variables file
+/.env
+/.env.test
+/.env.local
+
+# AI
+/.claude/
+.github/copilot-instructions.md
+CLAUDE.md
+AI.md
+
+# Visual Studio
+/.vscode/
+/*.code-workspace
+
+# macOS specific files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Build files
+/build/
+
+# Hidden files
+/nogit/
+*.wip
