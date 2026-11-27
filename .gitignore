@@ -1,0 +1,12 @@
+# Fantasy Grounds Unity session, backup, and user-specific files
+db.session.*.xml
+db.backup.*.xml
+campaign.lock
+chatlog.html
+usersettings/
+*.log
+
+# OS / editor artifacts
+.DS_Store
+Thumbs.db
+desktop.ini
