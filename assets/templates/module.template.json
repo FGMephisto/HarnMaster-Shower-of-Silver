@@ -1,0 +1,85 @@
+{
+  "id": "hm-adv-sos",
+  "title": "A Shower of Silver",
+  "description": "An introductory murder-mystery adventure for Hârn, located around Jedes keep in the kingdom of Kaldor",
+  "license": "LICENSE",
+  "readme": "README.md",
+  "authors": [
+    {
+      "name": "Toasty",
+      "discord": "toasty#8538"
+    }
+  ],
+  "compatibility": {
+    "minimum": "12",
+    "verified": "14"
+  },
+  "scripts": [
+    "scripts/init.js"
+  ],
+  "relationships": {
+    "requires": [
+      {
+        "id": "hm-loc-jedes",
+        "type": "module",
+        "manifest": "https://github.com/toastygm/hm-loc-jedes/releases/latest/download/module.json"
+      },
+      {
+        "id": "scene-packer",
+        "type": "module",
+        "manifest": "https://raw.githubusercontent.com/League-of-Foundry-Developers/scene-packer/master/module.json"
+      }
+    ]
+  },
+  "packFolders": [
+    {
+      "name": "A Shower of Silver",
+      "sorting": "m",
+      "packs": [
+        "actors-hm3",
+        "scenes",
+        "journals"
+      ],
+      "color": "#6e0a8c"
+    }
+  ],
+  "packs": [
+    {
+      "label": "Actors",
+      "name": "actors-hm3",
+      "path": "packs/actors-hm3",
+      "type": "Actor",
+      "system": "hm3",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "color": "#e6180a"
+    },
+    {
+      "label": "Scenes",
+      "name": "scenes",
+      "path": "packs/scenes",
+      "type": "Scene",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "color": "#1a8c0a"
+    },
+    {
+      "label": "Journals",
+      "name": "journals",
+      "path": "packs/journals",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "color": "#0a47e6"
+    }
+  ],
+  "flags": {
+    "allowBugReporter": true
+  }
+}
